@@ -11,10 +11,21 @@ header{
     color: #cf6094;
     text-align: center;
 }
+ul{
+    list-style-type: square;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
 main{
     text-align: center;
 }
 footer{
-    font-family: cursive;
     text-align: center;
 }
