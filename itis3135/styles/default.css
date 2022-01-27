@@ -14,9 +14,12 @@ header{
 figcaption{
     font-style: italic;
 }
+p{
+    text-align: left;
+}
 ul{
-    list-style-type: none;
     list-style-position: outside;
+    text-align: left;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -31,5 +34,8 @@ main{
     text-align: center;
 }
 footer{
+    text-align: center;
+}
+.copyright{
     text-align: center;
 }
