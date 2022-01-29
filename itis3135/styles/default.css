@@ -4,8 +4,9 @@ body{
     background-color: #FDE4CF;
     color: #736ced; 
 }
-link{
+a{
     color: #e639c6;
+    text-decoration: none;
 }
 header{
     color: #cf6094;
