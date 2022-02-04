@@ -7,51 +7,53 @@
     <!--favicon info!-->
     <link rel="icon" type="image/x-icon" sizes="32x32" href="./images/favicon.ico">
   </head>
-  <body>
-	<header>
-      <h1>Sidney Nesbitt &#8962; ITIS 3135 &#8962; HTML Forms</h1>
-	  <nav>
-		<a href="../index.html">ITIS 3135 Home Page</a>  &#8962;
-        <a href="index.html">Nesbitt Designs Home Page</a>  &#8962;
-        <a href="tables.html">HTML Tables</a>
-	  </nav>
-    </header>
-    <main>
-      <h2>HTML Forms</h2>
-      <form action="#" class="textchange2">
-        <label>Name: </label> <input type="text" size="50" placeholder="Jane Doe" required><br>
-        <p>How can we best contact you?</p>
-        <br>
-        <label>Email: </label> <input type="text" size="50" placeholder="jdoe@uncc.edu" required><br>
-        <label>Phone Number: </label> <input type="text" size="12" maxlength="15" placeholder="444-444-4444" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-        
-        <p>What title best discribes you?</p>
-        <input type="radio" name="Employee" value="Employee"> <label class="textchange">Employee</label>
-        <input type="radio" name="Member" value="Member"> <label class="textchange">Member</label>
-        <input type="radio" name="Guest" value="Guest" required> <label class="textchange">Guest</label><br>
 
-        <p>Are you interested in any of the following services?</p>
+    <body>
+      <header>
+        <h1>Sidney Nesbitt &#8962; ITIS 3135 &#8962; HTML Forms</h1>
+      <nav>
+      <a href="../index.html">ITIS 3135 Home Page</a>  &#8962;
+          <a href="index.html">Nesbitt Designs Home Page</a>  &#8962;
+          <a href="tables.html">HTML Tables</a>
+      </nav>
+      </header>
+      <main>
+        <h2>HTML Forms</h2>
+        <form action="#" class="textchange2">
+          <label>Name: </label> <input type="text" size="50" placeholder="Jane Doe" required><br>
+          <p>How can we best contact you?</p>
+          <br>
+          <label>Email: </label> <input type="text" size="50" placeholder="jdoe@uncc.edu" required><br>
+          <label>Phone Number: </label> <input type="text" size="12" maxlength="15" placeholder="444-444-4444" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+          
+          <p>What title best discribes you?</p>
+          <input type="radio" name="Employee" value="Employee"> <label class="textchange">Employee</label>
+          <input type="radio" name="Member" value="Member"> <label class="textchange">Member</label>
+          <input type="radio" name="Guest" value="Guest" required> <label class="textchange">Guest</label><br>
+
+          <p>Are you interested in any of the following services?</p>
+          <br>
+          <input type="checkbox" name="Special-Offers" value="Special Offers"> <label class="textchange"> Special Offers</label><br>
+          <input type="checkbox" name="Notifications" value="Notifications"> <label class="textchange">Notifications</label><br>
+          <input type="checkbox" name="Merch" value="Merch"> <label class="textchange">Merch</label>
+          <br>
+          <p>Would you like to receive monthly emails from us about news and upcoming projects?</p>
+          <select name="emails">
+              <option value="empty">--</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+          <br>
+          <input type="submit" value="Sumbit" class="button">
+          <input type="reset" value="Reset" class="button">
+        </form>
+      </main>
+      <footer>
+        <p class=copyright>Nesbitt Designs &copy;2022.</p>
         <br>
-        <input type="checkbox" name="Special-Offers" value="Special Offers"> <label class="textchange"> Special Offers</label><br>
-        <input type="checkbox" name="Notifications" value="Notifications"> <label class="textchange">Notifications</label><br>
-        <input type="checkbox" name="Merch" value="Merch"> <label class="textchange">Merch</label>
-        <br>
-        <p>Would you like to receive monthly emails from us about news and upcoming projects?</p>
-        <select name="emails">
-            <option value="empty">--</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-        </select>
-        <br>
-        <input type="submit" value="Sumbit" class="button">
-        <input type="reset" value="Reset" class="button">
-      </form>
-  	</main>
-  	<footer>
-      <p class=copyright>Nesbitt Designs &copy;2022.</p>
-      <br>
-      <a href = "https://validator.w3.org/check?uri=referer" target="_blank"><img alt="html5 validator" src = "images/button_validation_html5.png"></a>
-      <a href = "https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"><img alt="css validator" src = "images/button_validation_css.png"></a>
-  	</footer>
-  </body>
+        <a href = "https://validator.w3.org/check?uri=referer" target="_blank"><img alt="html5 validator" src = "images/button_validation_html5.png"></a>
+        <a href = "https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"><img alt="css validator" src = "images/button_validation_css.png"></a>
+      </footer>
+    </body>
+
 </html>

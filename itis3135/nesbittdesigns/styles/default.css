@@ -93,3 +93,8 @@ footer{
 .copyright{
     text-align: center;
 }
+.white-box {
+    background-color: white;
+    margin-left:inherit;
+    margin-right:inherit;
+}

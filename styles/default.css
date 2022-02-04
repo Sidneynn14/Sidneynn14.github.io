@@ -4,8 +4,12 @@ body{
     background-color: #FDE4CF;
     color: #736ced; 
 }
-link{
+a{
     color: #f188de;
+    text-decoration: none;
+}
+a:hover{
+    color: #736ced;
 }
 header{
     color: #cf6094;
@@ -26,6 +30,16 @@ main{
 footer{
     text-align: center;
 }
+hr{
+    width:75%;
+    margin:0 auto;
+}
 .copyright{
     text-align: center;
+}
+
+.white-box {
+    background-color: white;
+    margin-left:inherit;
+    margin-right:inherit;
 }
