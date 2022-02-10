@@ -23,6 +23,9 @@ header{
     color: #5c1c3a;
     text-align: center;
 }
+.outer-box{
+    background-color:#5c1c3a;
+}
 h1{
     font-family: 'Courier New', Courier, monospace;
 }
