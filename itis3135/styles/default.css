@@ -48,3 +48,21 @@ footer{
     margin-left:inherit;
     margin-right:inherit;
 }
+.calculator__display{
+    text-align: right;
+    border: #736ced;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.calculator__keys { 
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.key--equal{
+    grid-area: 2/4/6/5;
+}
+.calculator{
+    border: #736ced;
+    background-color: #cf6094;
+}
