@@ -3,6 +3,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #FDE4CF;
     color: #736ced; 
+    margin: 100px;
 }
 a{
     color: #e639c6;
