@@ -67,3 +67,16 @@ footer{
     border: #736ced;
     background-color: #cf6094;
 }
+.image-size{
+    width: 425px;
+    height: 350px;
+}
+.moveright{
+    float: right;
+}
+.moveleft{
+    float: left;
+}
+.leftalign{
+    text-align: left;
+}
