@@ -1,0 +1,46 @@
+/*https://coolors.co/1f2421-216869-49a078-9cc5a1-dce1de*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #216869;
+    color: #1F2421; 
+}
+a{
+    color: #49A078;
+    text-decoration: none;
+}
+a:hover{
+    color: #9CC5A1;
+}
+header{
+    color: #9CC5A1;
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #49A078;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+hr{
+    width:75%;
+    margin:0 auto;
+}
+.copyright{
+    text-align: center;
+}
+
+.white-box {
+    background-color: #DCE1DE;
+    margin-left:inherit;
+    margin-right:inherit;
+}
