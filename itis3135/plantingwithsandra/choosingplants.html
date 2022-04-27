@@ -5,8 +5,27 @@
     <title>
         Sandra's Selection
 	  </title><link href=styles/planting.css type ="text/css" rel="stylesheet">
+    <style>
+      main {
+        /*clear: left;*/
+        padding: 0 100px 20px;
+        padding-left: 0px;
+        padding-right: 200px;
+        width: 525px;
+        float:right;
+      }
+      main img {
+        margin: 1em 0 1em 1em;
+        border: 1px solid black;
+      }
+      .white-box{
+        margin: 0 auto;
+      }
+    </style>
     <!--favicon info!-->
     <link rel="icon" type="image/x-icon" sizes="32x32" href="images/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  	<script src="scripts/selections.js"></script>
   </head>
   <body>
     <div class="white-box">
@@ -22,15 +41,30 @@
       </nav>
       </header>
       <main>
-        <h2>Welcome!</h2>
-
-      </main>
+        <h2>Philodendron</h2>
+        <h3>Sweetheart Plant</h3>
+        <img src="images/philodendron.jpg" alt = "philodendron_image">
+        <p></p>
+        </main>
+        <aside>
+          <h1 id="plants">Sample Selections</h1>
+          <h3>Choose One</h3>
+          <nav id="nav_list">
+            <ul>
+              <li><a href="#" title="philodendron">Sweetheart Plant<br>Philodendron Hederaceum</a></li>
+              <li><a href="#" title="pothos">Devil's Ivy<br>Epipremnum Aureum</a></li>
+              <li><a href="#" title="snake">Snake Plant<br>Dracaena Trifasciata</a></li>
+              <li><a href="#" title="zanzibar">Z plant<br>Zanzibar Gem</a></li>
+            </ul>
+          </nav>
+        </aside>
       <footer>
         <hr>
         <p class=copyright>Created by <a href="/itis3135/nesbittdesigns/index.html">Nesbitt Designs &copy;2022</a>.</p>
         <br>
         <a href = "https://validator.w3.org/check?uri=referer" target="_blank"><img alt="html5 validator" src = "images/button_validation_html5.png"></a>
         <a href = "https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"><img alt="css validator" src = "images/button_validation_css.png"></a>
+        <br>
       </footer>
     </div>
   </body>

@@ -35,12 +35,44 @@ hr{
     width:75%;
     margin:0 auto;
 }
+img{
+    max-width: 300px;
+    max-height: 375px;
+}
+aside {
+	width: 215px;
+	float: left;
+	padding-left: 200px;
+	padding-bottom: 20px;
+}
+
 .copyright{
     text-align: center;
 }
-
+footer {
+	border-top: 3px;
+	padding: 1em 0;
+	clear: both;
+}
 .white-box {
     background-color: #DCE1DE;
     margin-left:inherit;
     margin-right:inherit;
+}
+#nav_list li { 
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px double black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 0;
+	/*background-image: url("images/right.jpg");*/
+	background-repeat: no-repeat;
+	background-position: 95% center;
+		
+}
+#nav_list li a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	padding: .5em 0 .5em 1em;
 }
