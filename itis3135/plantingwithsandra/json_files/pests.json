@@ -1,0 +1,30 @@
+{"pests":[
+	{
+		"nickname": "Aphids",
+		"long_official_name": "Aphidoidea",
+		"how_to_identify": "To Identify: New leaves may look crinkled or stunted, with aphids visible around the stem",
+		"image": "images/aphids.jpg",
+		"manage": "To manage: <ul><li>Wash aphids away with water</li><li>Apply neem oil to plant</li><li>Remove damaged leaves and parts</li><li>Hang sticky traps</li></ul>"		
+	},
+	{
+		"nickname": "Fungus Gnats",
+		"long_official_name": "Sciaridae",
+		"how_to_identify": "To Identify: The small gnats will be visible flying around plant and in soil",
+		"image": "images/gnats.jpg",
+		"manage": "To manage: <ul><li>Place sticky traps at base of point</li><li>Let soil dry out completely</li><li>Water soil with 4:1 water and hydrogen peroxide mix to kill larvae</li></ul>"		
+	},
+    {
+        "nickname": "Mealy Bugs",
+		"long_official_name": "Pseudococcidae",
+		"how_to_identify": "To Identify: ",
+		"image": "images/mealy.jpg",
+		"manage": "To manage: <ul><li>Remove visible bugs with a paper towel covered in isopropyl alcohol.</li><li>Spray entire plant with mix of one quart of water to one cup isopropyl alcohol (with a few drops of dish soap)</li></ul>"
+    },
+	{
+		"nickname": "Spider Mites",
+		"long_official_name": "Tetranychidae",
+		"how_to_identify": "To Identify: ",
+		"image": "images/mites.jpg",
+		"manage": "To manage: <ul><li>Spray and wipe leaves with mixture of four cups of water and one cup of isopropyl alcohol.</li><li>Spray with insecticidal soap</li><li>Apply neem oil to plant</li></ul>"
+	}
+]}

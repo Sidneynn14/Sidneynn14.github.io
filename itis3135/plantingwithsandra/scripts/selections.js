@@ -11,7 +11,7 @@ $(document).ready(function () {
             $("main h3").remove();
             $("main img").remove();
             $("main p").remove();
-            $("main").append("<h1>" + value.long_official_name + "</h2>" + "<h2>" + value.name + "</h2>" + "<h3>" + value.nickname + "</h3>" + "<img src=" + value.image + ">" + "<p>" + value.text + "</p>");
+            $("main").append("<h1>" + value.long_official_name + "</h1>" + "<h2>" + value.name + "</h2>" + "<h3>" + value.nickname + "</h3>" + "<img src=" + value.image + ">" + "<p>" + value.text + "</p>");
           });
         });
       });

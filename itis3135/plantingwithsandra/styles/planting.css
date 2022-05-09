@@ -4,20 +4,33 @@ body{
     background-color: #216869;
     color: #1F2421; 
 }
+header a{
+	text-decoration: none;
+	color: #DCE1DE;
+}
 a{
     color: #49A078;
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover{
     color: #9CC5A1;
 }
 header{
-    color: #9CC5A1;
+    color: #DCE1DE;
     text-align: center;
+	background-color: #216869;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
     color: #49A078;
+}
+header h1{
+	color: #DCE1DE;
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
@@ -75,4 +88,22 @@ footer {
 	font-weight: bold;
 	text-decoration: none;
 	padding: .5em 0 .5em 1em;
+}
+.bx-wrapper {
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: green;
+}
+.bx-viewport{
+	margin: auto;
+}
+.soil_calc{
+	background-color: aliceblue;
+	margin: auto;
 }

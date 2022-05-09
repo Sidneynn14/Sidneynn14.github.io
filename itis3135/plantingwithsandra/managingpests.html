@@ -5,8 +5,36 @@
     <title>
         Pesky Pests
 	  </title><link href=styles/planting.css type ="text/css" rel="stylesheet">
+    <style>
+      main {
+        width: 600px;
+        margin: auto;
+      }
+      main img {
+        margin: 1em 0 1em 1em;
+        border: 1px solid black;
+      }
+      .white-box{
+        margin: 0 auto;
+      }
+      p {
+        /*border-bottom: 2px solid black;*/
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      main img {
+        width:200px;
+        height:200px;
+      }
+      ul{
+        text-align: left;
+      }
+
+    </style>
     <!--favicon info!-->
     <link rel="icon" type="image/x-icon" sizes="32x32" href="images/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  	<script src="scripts/pests.js"></script>
   </head>
   <body>
     <div class="white-box">
@@ -22,8 +50,8 @@
       </nav>
       </header>
       <main>
-        <h2>Welcome!</h2>
-
+        <h1>Diffent Pests (and how Sandra manages them)</h1>
+		    <div id="pestlist"></div>
       </main>
       <footer>
         <hr>
@@ -31,6 +59,7 @@
         <br>
         <a href = "https://validator.w3.org/check?uri=referer" target="_blank"><img alt="html5 validator" src = "images/button_validation_html5.png"></a>
         <a href = "https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"><img alt="css validator" src = "images/button_validation_css.png"></a>
+        <br>
       </footer>
     </div>
   </body>

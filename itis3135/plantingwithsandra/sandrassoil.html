@@ -7,23 +7,67 @@
 	  </title><link href=styles/planting.css type ="text/css" rel="stylesheet">
     <!--favicon info!-->
     <link rel="icon" type="image/x-icon" sizes="32x32" href="images/favicon.ico">
+    <script src="scripts/soil.js"></script>
+    <style>
+      main{
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      ul{
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
     <div class="white-box">
       <header>
         <h1>🌱Sandra's Soil🌱</h1>
-      <nav>
-      <a href="index.html">Home</a>  |  
-      <a href="choosingplants.html">Sandra's Selections</a>  |  
-      <a href="propagation.html">Propagating with Sandra</a>  |  
-      <a href="sandrassoil.html">Sandra's Soil</a>  |  
-      <a href="managingpests.html">Pesky Pests</a>
-      <hr>
-      </nav>
+        <nav>
+          <a href="index.html">Home</a>  |  
+          <a href="choosingplants.html">Sandra's Selections</a>  |  
+          <a href="propagation.html">Propagating with Sandra</a>  |  
+          <a href="sandrassoil.html">Sandra's Soil</a>  |  
+          <a href="managingpests.html">Pesky Pests</a>
+          <hr>
+        </nav>
       </header>
       <main>
-        <h2>Welcome!</h2>
+        <h2>Composting From Home</h2>
+        <p>Composting describes the act of recycling your food (and other biodegradable) waste into rich soil that can then be used in your plants. This can all be done from your home.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bGRunDez1j4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Here are some helpful links to get started:</p>
+        <!--Links below-->
+        <ul>
+          <li><a href="https://helpmecompost.com/home-composting/implementation/how-to-make-compost-from-kitchen-waste/" target="_blank">HelpMeCompost.com "How To Make Compost From Kitchen Waste"</a></li>
+          <li><a href="https://helpmecompost.com/compost/materials/why-cant-you-compost-meat/" target="_blank">HelpMeCompost.com "Why you can't compost meat"</a></li>
+          <li><a href="https://www.gardeningknowhow.com/composting/ingredients/composting-kitchen-scraps.htm" target="_blank">GardeningKnowHow.com "Kitchen Composting"</a></li>
+          <li><a href="https://foodal.com/knowledge/how-to/kitchen-composting-101/" target="_blank">Foodal.com "Repurpose food scraps"</a></li>
+        </ul>
 
+
+        <h2>Hardiness Zones</h2>
+        <p>Soil composition and temperature is different across different areas. However, for the most part, areas of similar climate have similar soil. Certain plants thrive in different soils, these soils are differentiated by their hardiness levels. And areas of similar hardiness levels are called hardiness zones. Some plants thrive outdoors in some hardniness zones but not in others, therefore it is important to know what hardiness zone you live in if you'd like to start planting outdoors. Typically, the colder the area, the lower the hardiness zone level is. In the U.S., zones 3 through 10 can be found</p>
+        <p>*Climate change has actually caused these zones to shift over time so this diliniation is only mostly accurate.</p>
+        <div class="soil_calc">
+          <p>Find your hardiness zone here:</p>
+          <form>
+            <label for="area">Which row has the state (in the US) that you live in:</label><br>
+            <select name="area" id="area">
+              <option value="N/A">--</option>
+              <option value="4">MT, ND, WY, SD, North MN, WI, VT, NH, ME</option>
+              <option value="5">ID, CO, NE, South MN, IA, IL, IN, NY, MA</option>
+              <option value="6">WA, OH, MD, DE, TN, KY, WV, NJ</option>
+              <option value="7">North TX, NM, North AZ, OK, NC</option>
+              <option value="8">Central TX, LA, MS, SC, GA, AL, MS, North FL</option>
+              <option value="9">South AZ, CA, South FL</option>
+            </select>
+            <br>
+            <button onclick="getHardinessZone();" type="button" name="name" id="button1">Submit</button>
+          </form>
+          <p id="result"></p>
+        </div>
       </main>
       <footer>
         <hr>
